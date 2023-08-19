@@ -81,7 +81,7 @@ spring:
     activate:
       on-profile: mysql
   datasource:
-    url: jdbc:mysql://testing-petclinic-database.cljowf4o15oe.eu-west-3.rds.amazonaws.com:3306/petclinic?useSSL=false
+    url: jdbc:mysql://petclinic-testing-database.cljowf4o15oe.eu-west-3.rds.amazonaws.com:3306/petclinic?useSSL=false
     username: root
     password: petclinic
   sql:
